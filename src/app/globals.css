@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* @keyframes slide {
+  0%   { transform: translateY(0%); }
+  16.66% { transform: translateY(-100%); }
+  33.32% { transform: translateY(-200%); }
+  49.98% { transform: translateY(-300%); }
+  66.64% { transform: translateY(-400%); }
+  83.3%  { transform: translateY(-500%); }
+  100%   { transform: translateY(0%); }
+} */
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
