@@ -27,6 +27,7 @@ export default function Home() {
           <span className="h-6">fun</span>
           <span className="h-6">pizza</span>
           <span className="h-6">mentorship</span>
+          <span className="h-6">speakers</span>
 
           {/* duplicate to make infinite loop seamless */}
           <span className="h-6">open source</span>
@@ -35,6 +36,7 @@ export default function Home() {
           <span className="h-6">fun</span>
           <span className="h-6">pizza</span>
           <span className="h-6">mentorship</span>
+          <span className="h-6">speakers</span>
         </div>
       </div>
 
