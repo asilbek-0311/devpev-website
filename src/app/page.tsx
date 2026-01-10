@@ -15,7 +15,7 @@ export default function Home() {
       {/* Title & Subtitle */}
       <h1 className="mt-6 text-2xl font-bold">Website under development 🚧</h1>
       <p className="mt-2 text-center text-sm sm:text-base text-gray-300 max-w-md">
-        DevPev - O&apos;zbekistondagi dastlabki ochiq dasturchilar jamiyati
+        DevPev - O&apos;zbekistondagi ochiq dasturchilar jamiyati
       </p>
 
       {/* Infinite vertical carousel */}
