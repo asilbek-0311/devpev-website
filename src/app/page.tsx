@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#1f1f1f] text-white p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center text-white p-6">
+
+      
+
       {/* Logo */}
       <Image
         src="/devpev.svg"
@@ -68,6 +71,23 @@ export default function Home() {
         >
           Instagram
         </a>
+      </div>
+
+      {/* Event iframe (centered) */}
+      <div className="mt-16 w-[95%] md:w-[70%] mx-auto">
+        <div className="w-full h-[70vh] md:h-[40vh] rounded-xl overflow-hidden shadow-lg">
+          <iframe
+            src="https://luma.com/embed/event/evt-FGR4P8GStnXl6dY/simple"
+            width="100%"
+            height="100%"
+            className="block"
+            frameBorder="0"
+            style={{ border: "1px solid #1f1f1f", borderRadius: "10px", display: "block" }}
+            allow="fullscreen; payment"
+            aria-hidden="false"
+            tabIndex={0}
+          ></iframe>
+        </div>
       </div>
     </div>
   );
