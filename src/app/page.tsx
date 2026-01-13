@@ -75,7 +75,7 @@ export default function Home() {
 
       {/* Event iframe (centered) */}
       <div className="mt-16 w-[95%] md:w-[70%] mx-auto">
-        <div className="w-full h-[70vh] md:h-[40vh] rounded-xl overflow-hidden shadow-lg">
+        <div className="w-full h-[70vh] md:h-[50vh] rounded-xl overflow-hidden shadow-lg">
           <iframe
             src="https://luma.com/embed/event/evt-FGR4P8GStnXl6dY/simple"
             width="100%"
