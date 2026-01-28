@@ -77,7 +77,7 @@ export default function Home() {
       <div className="mt-16 w-[95%] md:w-[70%] mx-auto">
         <div className="w-full h-[70vh] md:h-[50vh] rounded-xl overflow-hidden shadow-lg">
           <iframe
-            src="https://luma.com/embed/event/evt-1mTsLdgAEha3pIE/simple"
+            src="https://luma.com/event/evt-9ZfUGDtteAW5AIU"
             width="100%"
             height="100%"
             className="block"
